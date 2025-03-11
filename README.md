@@ -3,4 +3,4 @@ Length of stay (LOS) in rehabilitation centers vary greatly from person to perso
 
 The preprocessing program (preprocessing/SAMHSA_clean_transform.py) removes redundant variables, expands the detailed categories (EMPLOY -- DETNLF, PSOURCE -- DETCRIM), imputes missing data, and one-hot encodes the variables for use in the neural network. The dataset is then separated based on service (e.g. 24 hour detox, long term rehabilitation) and converted to PyTorch format for use in the neural network. There are additional options present for continuous LOS data. After cleaning and transforming the data, we ended with 1369315 usable cases across 7 service types.
 
-We used a five-layer neural network with 2600+ neurons, tanh activation, and ADAGrad optimization. Each service was trained for 10 epochs with a batch size of 64 cases and a learning rate of 1e-3. We obtained an average accuracy of XX.X% across 10 categories of length of stay under each service type.
+We obtained an average accuracy of greater than 50% across 10 categories of length of stay under each service type using both convolutional and fully-connected networks.
