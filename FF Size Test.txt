@@ -1,0 +1,93 @@
+input layer 329 neurons, output layer 10 neurons
+hidden layers: 512 neurons
+relu activation
+I -> H1 -> H2 -> ... -> O
+
+0 hidden layers
+Test Error: 
+ Accuracy: 42.4%, Avg loss: 1.661251
+Category 0: 77.29% correct
+Category 1: 67.52% correct
+Category 2: 35.97% correct
+Category 3: 1.95% correct
+Category 4: 0.00% correct
+Category 5: 18.06% correct
+Category 6: 14.36% correct
+Category 7: 5.21% correct
+Category 8: 29.79% correct
+Category 9: 40.59% correct
+
+
+
+F1 Score: tensor([0.6054, 0.6202, 0.3866, 0.0341, 0.0000, 0.1916, 0.1683, 0.0807, 0.2488,
+        0.3520])
+
+1 layers
+Test Error: 
+ Accuracy: 47.1%, Avg loss: 1.490140
+Category 0: 76.50% correct
+Category 1: 72.52% correct
+Category 2: 44.85% correct
+Category 3: 5.85% correct
+Category 4: 0.78% correct
+Category 5: 25.62% correct
+Category 6: 17.11% correct
+Category 7: 8.90% correct
+Category 8: 39.73% correct
+Category 9: 47.30% correct
+
+F1 Score: tensor([0.6734, 0.6802, 0.4352, 0.0968, 0.0152, 0.2397, 0.2245, 0.1264, 0.3003,
+        0.4229])
+
+
+2 layers
+Test Error: 
+ Accuracy: 47.6%, Avg loss: 1.475152
+Category 0: 77.52% correct
+Category 1: 74.99% correct
+Category 2: 40.80% correct
+Category 3: 7.56% correct
+Category 4: 1.39% correct
+Category 5: 25.18% correct
+Category 6: 15.57% correct
+Category 7: 10.08% correct
+Category 8: 39.72% correct
+Category 9: 47.69% correct
+
+F1 Score: tensor([0.6742, 0.6754, 0.4368, 0.1183, 0.0266, 0.2405, 0.2228, 0.1417, 0.3016,
+        0.4252])
+
+3 layers
+Test Error: 
+ Accuracy: 47.7%, Avg loss: 1.471577
+Category 0: 76.32% correct
+Category 1: 75.15% correct
+Category 2: 40.30% correct
+Category 3: 5.94% correct
+Category 4: 1.05% correct
+Category 5: 26.82% correct
+Category 6: 15.37% correct
+Category 7: 10.13% correct
+Category 8: 44.57% correct
+Category 9: 45.99% correct
+
+F1 Score: tensor([0.6786, 0.6838, 0.4358, 0.0972, 0.0204, 0.2483, 0.2195, 0.1389, 0.3129,
+        0.4261])
+
+10 layers
+- stopped after 6 epochs
+Test Error: 
+ Accuracy: 47.4%, Avg loss: 1.480544
+Category 0: 77.91% correct
+Category 1: 74.67% correct
+Category 2: 41.14% correct
+Category 3: 4.96% correct
+Category 4: 0.18% correct
+Category 5: 28.87% correct
+Category 6: 13.65% correct
+Category 7: 7.16% correct
+Category 8: 42.61% correct
+Category 9: 44.65% correct
+
+F1 Score: tensor([0.6741, 0.6672, 0.4391, 0.0872, 0.0036, 0.2546, 0.2050, 0.1118, 0.3066,
+        0.4251])

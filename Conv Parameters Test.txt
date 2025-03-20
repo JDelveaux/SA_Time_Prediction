@@ -1,0 +1,36 @@
+For all tests:
+learning_rate = 8e-3
+batch_size = 64
+
+Test 1:
+2 convolution layers (1->25, 25->107 channels, kernel size = 5, no padding)
+2 pooling layers (MaxPool, kernel size = 5)
+3 hidden linear layers (ReLU activation)
+1 output layer
+
+Test Error: 
+ Accuracy: 45.1%, Avg loss: 1.572112
+
+Test 2:
+2 pooling layers (LPPool, power 2, kernel 5)
+
+Test Error: 
+ Accuracy: 42.1%, Avg loss: 1.655833 
+
+Test 3:
+3 hidden linear layers (tanh activation)
+
+Test Error: 
+ Accuracy: 41.0%, Avg loss: 1.707014 
+
+Test 4:
+2 hidden linear layers (tanh activation)
+
+Test Error: 
+ Accuracy: 40.3%, Avg loss: 1.730360 
+
+Test 5:
+2 convolution layers (1->25, 25->107 channels, kernel size = 5, padding = 3)
+
+Test Error: 
+ Accuracy: 47.1%, Avg loss: 1.492309 (max 47.3%)
